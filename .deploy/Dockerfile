@@ -121,7 +121,7 @@ RUN php artisan optimize
 RUN php artisan config:cache
 RUN php artisan route:cache
 RUN php artisan view:cache
-RUN php artisan filament:publish
+RUN php artisan filament:install
 RUN php artisan storage:link
 
 # install and setup supervisor
